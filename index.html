@@ -1,130 +1,280 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.98.0">
+    <title>IES Rosais2 - Aprende Programando</title>
 
-	<head>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/album/">
+
+    
+
+    
+
+<link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+    </style>
+
+    
+  </head>
 	
-		<meta charset="utf-8">
-		<title>El blog de Oscar Loeda</title>
-		
-		<style>
-
-			body {
-				color: white;
-				background-color: rgb(0, 0, 51);
-			}
-			
-			h1 {
-				color: darkred;
-			}			
-			
-			h2 {
-				color: cyan;			
-			}
-			
-			h3 {
-				color: aqua;
-			}
-
-			h4 {
-				color: lightblue;
-				background-color: grey;
-			}
-
-			.series-cabecera {
-				background-color: yellow;						
-			}			
-			
-			.cine-cabecera {
-				background-color:lightyellow;						
-				}
-			
-			.mi-vida {
-				background-color: ora
-			}
-		
-		
-		</style>
-		
-
-	</head>
-
 	<body>
-
-
-		<h1>El blog de Oscar Loeda</h1>
+    
+		<header>
+		
+		  <div class="collapse bg-dark" id="navbarHeader">
+			<div class="container">
+			  <div class="row">
+				<div class="col-sm-8 col-md-7 py-4">
+				  <h4 class="text-white">Sobre o Proxecto</h4>
+				  <p class="text-white">Os proxectos que aqui presentamos enmarcanse dentro do Programa Proxecta, un proxecto de programación en Scratch para potenciar as habilidades do Pensamento Computacional nos máis novos. Estes proxectos leváronse a cabo durante o segundo e terceiro trimestre do curso de TIC polo alumnado de 4º da ESO.</p>
+				</div>
 				
-		<ul>
-			<li><a href="#diario">Diario de mi confinamiento</a></li>
-			<li><a href="#historia-web">Historia de la Web</a></li>
-		</ul>
+				<div class="col-sm-4 offset-md-1 py-4">
+				  <h4 class="text-white">Contacto</h4>
+				  <ul class="list-unstyled">
+					<li class="text-white">IES Rosais2</li>
+					<li class="text-white">Rua Coutadas s/n 36207 – Vigo</li>
+					<li class="text-white">Correo electrónico: ies.rosais.2@edu.xunta.gal</li>
+				  </ul>
+				</div>
+			  
+			  </div>
+			</div>
+		  </div>
+		  <div class="navbar navbar-dark bg-dark shadow-sm">
+			<div class="container">
+			  <a href="#" class="navbar-brand d-flex align-items-center">
+				<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2" viewBox="0 0 24 24"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+				<strong>Proxectos en Scratch feitos polo alumnado das TIC de 4º ESO</strong>
+			  </a>
+			  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			</div>
+		  </div>
 		
-		
-		
-				
-		<h2 id="diario">Diario de mi confinamiento</h2>
-		
-		
-		<img src="loneliness-unsplash.jpg" width="900" height="400" alt="Soledad">
-		
-		<p>He creado esta web para mostrar a todo el mundo como estoy yo viviendo este confinamiento, esta etapa que nos ha tocado vivir. Sé que todos tenemos nuestras pequeñas historias que contar, pero esta es la mía y la quiero compartir con todos vosotros y vosotras.</p>
-		
-		<h3>¿Cómo es mi vida diaria?</h3>
-		
-		<p class="mi-vida"><strong>Prácticamente hago la misma rutina diaria todos los <em>días</em>.</strong> Me levanto, hago algo de ejercicio, me aseo, desayuno y me pongo a trabajar en mis tareas docentes.</p>
-		
-		<p class="mi-vida">La mañana transcurre de este modo rápido hasta la hora de comer. Por la tarde continuo un poco más, preparando las clases o corrigiendo trabajos.</p>
+		</header>
 
-		<h3>Mis principales aficiones </h3>
-		
-		<p>Durante este confinamiento he encontrado mas tiempo para alguna de mis aficiones favoritas como son el cine y las series de televisión.</p>
-		
-		<h4 class="series-cabecera">Mis series de TV</h4>
-		
-		<img src="../../imagenes/bn_tv.png">
-		<img src="../../imagenes/bn_tv.png">
-		
-		<p>Es quizás la actividad a la que dedico más tiempo libre. Estoy revisando alguna serie pasada y otras nuevas. Os hago mi lista particular sin orden establecido.</p>
-		
-		<ul>		
-			<li>Breaking Bad.</li>
-			<li>The Wire.</li>
-			<li>The Leftovers.</li>
-		</ul>
+		<main>
 
-		<h4 class="cine-cabecera">Cine Clásico</h4>
-		
-		<a target="_blank" href="https://es.wikipedia.org/wiki/Cine_cl%C3%A1sico">		
-			<img src="https://images.unsplash.com/photo-1478720568477-152d9b164e26?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" width="500">		
-		</a>
-		
-		<p>A parte de las series de TV me he puesto a revisar también alguno de los clasicos del cine que hacía tiempo que no veía.<br> Por orden de preferencia son las siguientes.</p>
-				
-		<ol>		
-			<li>Plácido.</li>
-			<li>El verdugo.</li>
-			<li>Casablanca.</li>
-			<li>El Padrino.</li>
-			<li>Blade Runner.</li>		
-		</ol>
+			<section class="py-5 text-center container">
 
-		
-		<a target="_blank" href="https://es.wikipedia.org/wiki/Cine_cl%C3%A1sico">Para más información ...</a>
+				<div class="row py-lg-5">
+				  <div class="col-lg-6 col-md-8 mx-auto">
+					<h1 class="fw-light">Os Proxectos</h1>
+					<p class="lead text-muted">A continuación amosamos a toda a comunidade do noso instituto os proxectos que fixemos o longo do curso das TIC. Foi un longo recorrido que termina agora coa satisfacción de dalos a coñocer a todos e todas vos. Esperamos que os gusten!.</p>
+				  </div>
+				</div>
 
-		
-		<h4>Otra cabecera H4</h4>	
-		
-		<h2 id="historia-web">Mis blogs favoritos</h2>
-		
-		<p>Uno de los blogs que  más me gustan es el de Lovely-pepa .....</p>
+			</section>
 
-		
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/l8m8sRRFCb4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		
-		<video  width="560"  controls="true" src="sesion-2bach-200505-12.mp4"></video>
+			<div class="album py-5 bg-light">
 
-				
+				<div class="container">
 
+					<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+				  
+
+						<div class="col">					  
+							<div class="card shadow h-100">								
+								<a href="https://scratch.mit.edu/projects/705183037/fullscreen/" target="_blank"><img src="images/a-boa-decision.jpg" class="card-img-top" alt=""></a>
+								<div class="card-body">								
+									<h5 class="card-title">A boa decisión</h5>
+									<p class="card-text">Mary e Maikel deben tomar as mellores decisións para aforrar no consumo de enerxía.</p>
+									<p class="card-text"><small class="text-muted">Autores: Alan,Hugo e Sofía.</small></p>									
+								</div>					  
+							</div>						
+						</div>
+						
+						<div class="col">					  
+							<div class="card shadow h-100">								
+								<a href="https://scratch.mit.edu/projects/705277765/fullscreen/" target="_blank"><img src="images/rutina-dun-adolescente.jpg" class="card-img-top" alt=""></a>
+								<div class="card-body">								
+									<h5 class="card-title">Rutina dun adolescente</h5>
+									<p class="card-text">Apaga os interruptores o antes que podas respondendo as preguntas.</p>
+									<p class="card-text"><small class="text-muted">Autores: Darío,Antonio, Luis e Sara.</small></p>									
+								</div>					  
+							</div>						
+						</div>
+
+						<div class="col">					  
+							<div class="card shadow h-100">								
+								<a href="https://scratch.mit.edu/projects/705682736/fullscreen/" target="_blank"><img src="images/apaga-as-luces.jpg" class="card-img-top" alt=""></a>
+								<div class="card-body">								
+									<h5 class="card-title">Apaga as luces</h5>
+									<p class="card-text">Apaga as luces o antes que podas respondendo as preguntas, canto máis tardes máis consumes.</p>
+									<p class="card-text"><small class="text-muted">Autores: Celia,Carolina,Silvia e Hugo.</small></p>									
+								</div>					  
+							</div>						
+						</div>
+						
+						<div class="col">					  
+							<div class="card shadow h-100">								
+								<a href="https://scratch.mit.edu/projects/705174889/fullscreen/" target="_blank"><img src="images/meiga-atrapa-raios.jpg" class="card-img-top" alt=""></a>
+								<div class="card-body">								
+									<h5 class="card-title">Meiga atrapa raios</h5>
+									<p class="card-text">Move a meiga o mais rápido que poidas para atrapar todolos raios e cargar as baterías!.</p>
+									<p class="card-text"><small class="text-muted">Autores: Gabriel,Manuel,Gonzalo e Antón.</small></p>									
+								</div>					  
+							</div>						
+						</div>
+
+						<div class="col">					  
+							<div class="card shadow h-100">								
+								<a href="https://scratch.mit.edu/projects/705276707/fullscreen/" target="_blank"><img src="images/xogo-dos-interruptores.jpg" class="card-img-top" alt=""></a>
+								<div class="card-body">								
+									<h5 class="card-title">Xogo dos interruptores</h5>
+									<p class="card-text">Apaga os interruptores o antes posible contestanto as preguntas, apresa, senon consumes moita enerxía.</p>
+									<p class="card-text"><small class="text-muted"></small></p>									
+								</div>					  
+							</div>						
+						</div>
+
+						<div class="col">					  
+							<div class="card shadow h-100">								
+								<a href="https://scratch.mit.edu/projects/705003945/fullscreen/" target="_blank"><img src="images/as-decisions-de-xaime.jpg" class="card-img-top" alt=""></a>
+								<div class="card-body">								
+									<h5 class="card-title">As decisións de Xaime</h5>
+									<p class="card-text">Xaime debe tomar as mellores decisións para reducir a sua pegada ecolóxica.</p>
+									<p class="card-text"><small class="text-muted">Autores: Irene Correa,Irene Alonso e Salka.</small></p>									
+								</div>					  
+							</div>						
+						</div>
+
+						<div class="col">					  
+							<div class="card shadow h-100">								
+								<a href="https://scratch.mit.edu/projects/705060265/fullscreen/" target="_blank"><img src="images/a-nube-salvadora.jpg" class="card-img-top" alt=""></a>
+								<div class="card-body">								
+									<h5 class="card-title">A nube salvadora</h5>
+									<p class="card-text">Cando o planeta estaba a piques de esgotar as suas fontes de enerxía apareceu unha nube para liberar toda a sua forza que deberás atrapar!.</p>
+									<p class="card-text"><small class="text-muted">Autores: Martiño,Mauro,Gustavo e Raúl.</small></p>									
+								</div>					  
+							</div>						
+						</div>
+
+						<div class="col">					  
+							<div class="card shadow h-100">								
+								<a href="https://scratch.mit.edu/projects/705186619/fullscreen/" target="_blank"><img src="images/o-xogo-das-3rs.jpg" class="card-img-top" alt=""></a>
+								<div class="card-body">								
+									<h5 class="card-title">O xogo das 3Rs</h5>
+									<p class="card-text">Segue os consellos de Greta e trata de Reciclar, Reutilzar e Reusar o mallor número de enseres que poidas, o noso planeta agradecerácheo.</p>
+									<p class="card-text"><small class="text-muted">Autores: Celia,Sara,Natalia e Pablo.</small></p>									
+								</div>					  
+							</div>						
+						</div>
+
+						<div class="col">					  
+							<div class="card shadow h-100">								
+								<a href="https://scratch.mit.edu/projects/705494318/fullscreen/" target="_blank"><img src="images/o-ultimo-brillo.jpg" class="card-img-top" alt=""></a>
+								<div class="card-body">								
+									<h5 class="card-title">O último brillo</h5>
+									<p class="card-text">Encontra o camiño de saída no laberinto, non e doado debes evitar os obstáculos que che persiguen.</p>
+									<p class="card-text"><small class="text-muted"></small></p>									
+								</div>					  
+							</div>						
+						</div>
+
+						<div class="col">					  
+							<div class="card shadow h-100">								
+								<a href="https://scratch.mit.edu/projects/704997758/fullscreen/" target="_blank"><img src="images/o-homiño-de-reciendumbre.jpg" class="card-img-top" alt=""></a>
+								<div class="card-body">								
+									<h5 class="card-title">O homiño de Reciendumbre</h5>
+									<p class="card-text">Un homiño da cidade de Reciendumbre debe apagar os interruptores dunha vivenda contestando correctamente as preguntas relacionadas coa enerxía, queres axudalo?.</p>
+									<p class="card-text"><small class="text-muted">Autores: Noah,Amanda e Alan.</small></p>									
+								</div>					  
+							</div>						
+						</div>
+
+						<div class="col">					  
+							<div class="card shadow h-100">								
+								<a href="https://scratch.mit.edu/projects/705710814/fullscreen/" target="_blank"><img src="images/limpando-a-ritmo-de-frauta.jpg" class="card-img-top" alt=""></a>
+								<div class="card-body">								
+									<h5 class="card-title">Limpando as augas a ritmo de frauta</h5>
+									<p class="card-text">Queres colaborar a reutilizar, reciclar e reusar enseres que atoparás tirados nas augas dos nosos mares?, pois este é o teu xogo, e todo elo a ritmo de frauta! .</p>
+									<p class="card-text"><small class="text-muted">Autores: Nicolás e Iago.</small></p>									
+								</div>					  
+							</div>						
+						</div>
+						
+
+				  
+					</div>
+				  
+				</div>
+
+			</div>
+
+		</main>
+
+		<footer class="text-muted py-5">
+		  <div class="container">
+			<p class="float-end mb-1">
+			  <a href="#">Volver o inicio</a>
+			</p>
+			<p class="mb-1">&copy; oscarloeda</p>
+			<p class="mb-0">Páxina web feita coa axuda da tecnoloxía de &copy;Bootstrap. Podes visitar aqui o seu <a href="https://getbootstrap.com/"> site</a>.</p>
+		  </div>
+		</footer>
+
+
+		<script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+
+      
 	</body>
-
 
 </html>
